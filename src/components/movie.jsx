@@ -5,6 +5,7 @@ import ListGroup from "./common/listGroup";
 import Pagination from "./common/pagination";
 import { paginate } from "../utils/paginate";
 import { getGenres } from "../services/fakeGenreService";
+import { Link } from "react-router-dom";
 import _ from "lodash";
 
 class Movie extends Component {
@@ -72,6 +73,9 @@ class Movie extends Component {
             />
           </div>
           <div className="col-9">
+            <Link className="btn btn-primary" to="/movies/new">
+              New Movie
+            </Link>
             {count === 0 ? (
               <h3>There are no movies in the database.</h3>
             ) : (
