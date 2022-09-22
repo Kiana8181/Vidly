@@ -14,7 +14,7 @@ const ListGroup = ({
           onClick={() => onClick(genre)}
           key={genre[valueProperty]}
           className={
-            currentListGroup._id === genre._id
+            currentListGroup === genre
               ? "list-group-item active"
               : "list-group-item"
           }
