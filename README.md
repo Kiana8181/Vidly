@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Vidly
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Vidly is a movie rental application built with React 16 as part of the "Mastering React 16" course by Mosh Hamedani. This project demonstrates various key concepts and techniques for building fast, interactive, and maintainable web applications using React.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Course Topics](#course-topics)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project covers a wide range of topics, including component creation, state management, routing, form handling, calling backend services, authentication, and deployment. The main aim is to provide a hands-on experience in building a real-world application with React.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Build and deploy fast and interactive React apps
+- Create reusable components
+- Implement tables and lists with pagination, sorting, and searching
+- Create forms with validation
+- Implement routing with React Router
+- Call HTTP services with Axios
+- Handle authentication and authorization
+- Log and handle errors effectively
+- Utilize Function Components and Hooks
+- Share data using React Context
+- Deploy applications to Heroku
+- Write clean, maintainable code
+- Use shortcuts to write more code in less time
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Make sure you have the following installed on your machine:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (>=12.x)
+- npm (>=6.x) or yarn (>=1.x)
+- MongoDB (for backend services)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/vidly.git
+    cd vidly
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install the dependencies:
+    ```sh
+    npm install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Set up the backend:
+    - Follow the instructions in the `backend` directory to set up and run the Node.js backend service.
+    - Make sure MongoDB is running and the backend service is connected to it.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Start the development server:
+    ```sh
+    npm start
+    ```
 
-## Learn More
+2. Open your browser and navigate to `http://localhost:3000` to view the application.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Course Topics
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The following topics are covered in the course and implemented in the Vidly project:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **React Basics**: Setting up the development environment, creating your first React app, custom configurations, and understanding full-stack architecture.
+- **Components**: Creating class and function components, passing data and children, managing state and lifecycle methods.
+- **Pagination, Filtering, and Sorting**: Building reusable components for handling pagination, filtering, and sorting data.
+- **Routing**: Implementing navigation with React Router, including nested routes, redirects, and programmatic navigation.
+- **Forms**: Handling form submissions, validations using Joi, and creating reusable form components.
+- **Calling Backend Services**: Using Axios to interact with backend services, handling HTTP requests, and managing optimistic and pessimistic updates.
+- **Authentication and Authorization**: Implementing user registration, login, JWT storage, protecting routes, and managing user permissions.
+- **Deployment**: Preparing the application for deployment, using environment variables, deploying to Heroku, and setting up MongoDB in the cloud.
